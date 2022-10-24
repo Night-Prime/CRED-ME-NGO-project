@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>NGO Website</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/styles/index.css">
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <header>
+        <main>
+            <!-- Logo Here -->
+            <!-- <img src="../assets/images/MicrosoftTeams-image.png" alt="Logo"> -->
+            <h1>Cred <span class="special">ME</span></h1>
+        </main>
+    </header>
+
+    <!-- Hero Section -->
+    <nav>
+        <main>
+            <!-- background image here -->
+            <span class="heading">
+                <p>Cred <span class="special">ME</span></p>
+            </span>
+            <span class="body">
+                We help grow small and medium scale enterprise <br /> by providing zero interest loans.
+            </span>
+            <div class="btn">
+                <button>
+                    Contact
+                </button>
+            </div>
+        </main>
+    </nav>
+
+    <!-- Sub Section -->
+    <section class="intro">
+        <main>
+            <div class="intro-img">
+                <img src="../assets/images/iwaria-inc-tvTFMDwH-cQ-unsplash.jpg" alt="">
+            </div>
+            <div class="intro-body">
+                <main>
+                    <span class="intro-head">
+                        <h1>Our Goal is to Help Business Grow.</h1>
+                        </spain>
+                        <div class="intro-text">
+                            Lifting traders and business owners out of poverty through sustaining
+                            and scaling their business is our <b>Major Priortiy</b>.
+                        </div>
+                </main>
+            </div>
+        </main>
+    </section>
+
+    <section class="sub-heading">
+        <main>
+            <div class="sub-body">
+                <p>
+                    Cred <span class="special">ME</span> raises fund from other international
+                    NGOs, the Ministry of Trade and Commerce with other dedicated philantropists.
+                    <br />
+                    The Loans range from as low as $20 to $500 depending on a lot of factors; size of business,
+                    vulnerability and need,
+                    each sucessful loan repayment qualifies the business to acquire a higher loan. <br />
+
+                    Cred <span class="special">ME</span> was established 6 years ago, which we have impacted directly 718 business with over $500,000 and more to the process of scaling business.
+                </p>
+            </div>
+        </main>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+        <main>
+            <div class="logo">
+                <h1>Cred <span class="special">ME.</h1>
+            </div>
+            <div class="links">
+                <ul>
+                    <h4>For Further Enquiries</h4>
+                    <li>
+                        <a href="">Contact: +234701088992</a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script>
+        let tl = gsap.timeline({delay: .05});
+        tl.from('header', { duration: .7, ease:'power2. out', y: -80});
+        tl.from('.sub-body, .heading, .body, .btn', { duration: 1, ease:'power2. out', opacity:0, y: 20});
+    </script>
+</body>
+
+</html>
